@@ -1,0 +1,39 @@
+{
+  "_comment": "Screening settings, safe to edit. They describe what the scanner shows and how noisy it is, and are not recommendations. Secrets never go here: this repo is public.",
+
+  "universe": {
+    "min_price_usd": 5.0,
+    "min_avg_dollar_volume_usd": 10000000,
+    "allowed_exchange_keywords": ["nasdaq", "nyse"],
+    "max_candidates": 60
+  },
+
+  "alerts": {
+    "min_score": 55,
+    "min_confirming_categories": 2,
+    "max_per_day": 6,
+    "cooldown_hours": 24,
+    "rescore_bypass_points": 15
+  },
+
+  "enrichment": {
+    "top_n": 15,
+    "insider_lookback_days": 14,
+    "insider_min_purchase_usd": 25000,
+    "insider_cache_hours": 6,
+    "headline_max_age_days": 5
+  },
+
+  "scorecard": {
+    "horizons_trading_days": [1, 5, 20]
+  },
+
+  "brief": {
+    "model": "claude-opus-5-5",
+    "slots_et": ["09:00", "12:30"],
+    "slot_window_minutes": 90,
+    "max_tokens": 2000
+  },
+
+  "dashboard_rows": 25
+}

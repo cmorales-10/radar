@@ -1,0 +1,72 @@
+name: scan
+
+on:
+  schedule:
+    # GitHub cron uses UTC and can run late. Times avoid :00, when GitHub is busiest.
+    # Every 15 minutes on weekdays, 13:00-21:59 UTC, covering the session in both EST and EDT.
+    - cron: "2,17,32,47 13-21 * * 1-5"
+    # Hourly the rest of the time, so research keeps running around the clock.
+    - cron: "7 0-12,22-23 * * 1-5"
+    - cron: "7 * * * 0,6"
+  workflow_dispatch: {}
+
+# A queued run waits instead of two runs writing state at once.
+concurrency:
+  group: scan
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install the optional Claude SDK
+        if: ${{ env.ANTHROPIC_API_KEY != '' }}
+        run: pip install -r requirements.txt
+
+      - name: Run scan
+        run: |
+          export DASHBOARD_URL="https://${GITHUB_REPOSITORY_OWNER}.github.io/${GITHUB_REPOSITORY#*/}/"
+          python -m scanner.run
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          SEC_CONTACT: ${{ secrets.SEC_CONTACT }}
+
+      # These commits also keep GitHub from pausing the schedule after 60 quiet days.
+      - name: Save state
+        run: |
+          git config user.name "radar-bot"
+          git config user.email "radar-bot@users.noreply.github.com"
+          git add data/state.json
+          if git diff --cached --quiet; then
+            echo "No state changes"
+          else
+            git commit -m "Update scan state [skip ci]"
+            git pull --rebase
+            git push
+          fi
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - id: deploy
+        uses: actions/deploy-pages@v4
