@@ -24,6 +24,10 @@
     "1": {
      "stock": 1.81,
      "spy": -0.33
+    },
+    "5": {
+     "stock": 15.73,
+     "spy": 3.32
     }
    },
    "current_return_pct": 15.73,
@@ -135,7 +139,12 @@
     "Earnings within about 3 days: price can gap either way",
     "Very volatile: typical daily swing 7.5%"
    ],
-   "returns": {},
+   "returns": {
+    "1": {
+     "stock": -2.59,
+     "spy": -0.15
+    }
+   },
    "current_return_pct": -2.59,
    "current_spy_return_pct": -0.15
   },
@@ -161,7 +170,12 @@
     "Very volatile: typical daily swing 7.3%",
     "Insiders sold $1,962,688 recently"
    ],
-   "returns": {},
+   "returns": {
+    "1": {
+     "stock": -0.93,
+     "spy": -0.15
+    }
+   },
    "current_return_pct": -0.93,
    "current_spy_return_pct": -0.15
   }
@@ -266,7 +280,7 @@
    }
   },
   "AMD": {
-   "fetched": 1794448555,
+   "fetched": 1794481029,
    "data": {
     "buyers": 0,
     "buy_value": 0,
@@ -298,7 +312,7 @@
    }
   },
   "MU": {
-   "fetched": 1794448555,
+   "fetched": 1794481029,
    "data": {
     "buyers": 0,
     "buy_value": 0,
@@ -322,7 +336,7 @@
    }
   },
   "NVDA": {
-   "fetched": 1794448555,
+   "fetched": 1794481029,
    "data": {
     "buyers": 0,
     "buy_value": 0,
@@ -330,7 +344,7 @@
    }
   },
   "SNDK": {
-   "fetched": 1794448555,
+   "fetched": 1794481029,
    "data": {
     "buyers": 0,
     "buy_value": 0,
@@ -618,7 +632,7 @@
    }
   },
   "INTC": {
-   "fetched": 1794448555,
+   "fetched": 1794481029,
    "data": {
     "buyers": 1,
     "buy_value": 9709680,
@@ -626,7 +640,7 @@
    }
   },
   "NBIS": {
-   "fetched": 1794448555,
+   "fetched": 1794481029,
    "data": {
     "buyers": 1,
     "buy_value": 82814,
@@ -698,7 +712,7 @@
    }
   },
   "CRWV": {
-   "fetched": 1794448555,
+   "fetched": 1794481029,
    "data": {
     "buyers": 0,
     "buy_value": 0,
@@ -746,7 +760,7 @@
    }
   },
   "AVGO": {
-   "fetched": 1794448555,
+   "fetched": 1794481029,
    "data": {
     "buyers": 0,
     "buy_value": 0,
@@ -762,7 +776,7 @@
    }
   },
   "FRVO": {
-   "fetched": 1794245129,
+   "fetched": 1794481029,
    "data": {
     "buyers": 0,
     "buy_value": 0,
@@ -858,7 +872,7 @@
    }
   },
   "RUM": {
-   "fetched": 1794448555,
+   "fetched": 1794481029,
    "data": {
     "buyers": 0,
     "buy_value": 0,
@@ -914,7 +928,7 @@
    }
   },
   "HR": {
-   "fetched": 1794448555,
+   "fetched": 1794481029,
    "data": {
     "buyers": 0,
     "buy_value": 0,
@@ -922,11 +936,35 @@
    }
   },
   "DJT": {
-   "fetched": 1794452129,
+   "fetched": 1794481029,
    "data": {
     "buyers": 0,
     "buy_value": 0,
     "sell_value": 0
+   }
+  },
+  "NYT": {
+   "fetched": 1794481029,
+   "data": {
+    "buyers": 0,
+    "buy_value": 0,
+    "sell_value": 0
+   }
+  },
+  "NOW": {
+   "fetched": 1794481029,
+   "data": {
+    "buyers": 0,
+    "buy_value": 0,
+    "sell_value": 131091
+   }
+  },
+  "LLY": {
+   "fetched": 1794481029,
+   "data": {
+    "buyers": 0,
+    "buy_value": 0,
+    "sell_value": 7012600
    }
   }
  },
@@ -946,17 +984,18 @@
    "pct_below_52w_high": 48.41,
    "pct_below_day_high": 3.45,
    "market_time": 1794430800,
-   "score": 51,
+   "score": 57,
    "categories": {
-    "attention": 25,
+    "attention": 31,
     "tape": 14,
     "insider": 12
    },
    "reasons": [
     "Volume 1.6x normal pace",
     "Up 15.4% today",
-    "#5 on Reddit (228 mentions/24h)",
-    "Reddit mentions up 3.0x in 24h",
+    "#4 on Reddit (246 mentions/24h)",
+    "Reddit mentions up 2.8x in 24h",
+    "Trending on Stocktwits",
     "On Yahoo's top gainers list",
     "On Yahoo's most active list",
     "1 insider bought $82,814 on the open market (SEC Form 4)"
@@ -969,108 +1008,19 @@
    "earnings_ts": 1794490200,
    "headlines": [
     {
-     "title": "Dow Jones Futures Rise, Techs Fall As Nvidia May Oust CEO Huang After CoreWave Leads Rally",
-     "link": "https://finance.yahoo.com/m/672e6ef4-2ba3-319b-b948-a356a7f1fcbe/dow-jones-futures-rise%2C-techs.html?.tsrc=rss",
-     "ts": 1794451410
+     "title": "NVDA Turmoil Weighs On Nasdaq Futures — INTC, BABA, NBIS, ONDS In Focus",
+     "link": "https://stocktwits.com/news-articles/markets/equity/nvda-turmoil-weighs-on-nasdaq-futures-intc-baba-nbis-onds-in-focus/cNGzryOR9aT?.tsrc=rss",
+     "ts": 1794479275
     },
     {
-     "title": "Nebius Group (NBIS) is Rocketing 15% Higher — Here’s What Could Move Shares Next",
-     "link": "https://finance.yahoo.com/technology/ai/articles/nebius-group-nbis-rocketing-15-233134155.html?.tsrc=rss",
-     "ts": 1794439894
+     "title": "NBIS Retreats After CoreWeave Rally Ahead Of Q3 Report: Analyst Says Market Can’t ‘Squeeze Out’ Top Players Amid Record Cloud Demand",
+     "link": "https://stocktwits.com/news-articles/markets/equity/nbis-retreats-after-core-weave-rally-ahead-of-q3-report-analyst-says-market-can-t-squeeze-out-top-players-amid-record-cloud-demand/cNGzYP9R99x?.tsrc=rss",
+     "ts": 1794472913
     },
     {
-     "title": "Nvidia-Backed CoreWeave Is Surging: Here’s What It Means for the AI Boom",
-     "link": "https://decrypt.co/383099/nvidia-backed-coreweave-surging-what-means-for-ai-boom?.tsrc=rss",
-     "ts": 1794436563
-    }
-   ]
-  },
-  {
-   "symbol": "AXGN",
-   "name": "AxoGen, Inc.",
-   "instrument_type": "EQUITY",
-   "exchange": "NasdaqCM",
-   "price": 58.63,
-   "day_change_pct": 15.21,
-   "relative_volume": 2.45,
-   "avg_dollar_volume": 92698169,
-   "momentum_20d_pct": 66.85,
-   "above_ma20_pct": 35.91,
-   "daily_volatility_pct": 7.11,
-   "pct_below_52w_high": 1.83,
-   "pct_below_day_high": 1.83,
-   "market_time": 1794430801,
-   "score": 43,
-   "categories": {
-    "attention": 4,
-    "tape": 39,
-    "insider": 0
-   },
-   "reasons": [
-    "Volume 2.5x normal pace",
-    "Up 15.2% today",
-    "Up 67% over 20 sessions",
-    "Within 1.8% of its 52-week high",
-    "Trending on Yahoo Finance",
-    "On Yahoo's top gainers list"
-   ],
-   "flags": [
-    "Stretched: 36% above its 20-day average",
-    "Very volatile: typical daily swing 7.1%"
-   ],
-   "market_cap": 3502011904,
-   "earnings_ts": 1793190600,
-   "headlines": []
-  },
-  {
-   "symbol": "AZTA",
-   "name": "Azenta, Inc.",
-   "instrument_type": "EQUITY",
-   "exchange": "NasdaqGS",
-   "price": 48.9,
-   "day_change_pct": 20.8,
-   "relative_volume": 2.73,
-   "avg_dollar_volume": 36854611,
-   "momentum_20d_pct": 31.52,
-   "above_ma20_pct": 29.6,
-   "daily_volatility_pct": 4.15,
-   "pct_below_52w_high": 2.31,
-   "pct_below_day_high": 2.31,
-   "market_time": 1794430801,
-   "score": 43,
-   "categories": {
-    "attention": 4,
-    "tape": 39,
-    "insider": 0
-   },
-   "reasons": [
-    "Volume 2.7x normal pace",
-    "Up 20.8% today",
-    "Up 32% over 20 sessions",
-    "Within 2.3% of its 52-week high",
-    "Trending on Yahoo Finance",
-    "On Yahoo's top gainers list"
-   ],
-   "flags": [
-    "Stretched: 30% above its 20-day average"
-   ],
-   "market_cap": 2142230400,
-   "earnings_ts": 1794344400,
-   "headlines": [
-    {
-     "title": "Why Azenta Stock Crushed it on Wednesday",
-     "link": "https://www.fool.com/investing/2026/11/11/why-azenta-stock-crushed-it-on-wednesday/?.tsrc=rss",
-     "ts": 1794447799
-    },
-    {
-     "title": "Azenta (AZTA) Following Earnings And Deals Has Its Valuation Story Changed",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/azenta-azta-following-earnings-deals-001902092.html?.tsrc=rss",
-     "ts": 1794442742
-    },
-    {
-     "title": "Azenta Inc (AZTA) (Q4 2026) Earnings Call Highlights: Revenue Tops Guidance as Gene Synthesis ...",
-     "link": "https://finance.yahoo.com/healthcare/articles/azenta-inc-azta-q4-2026-210709643.html?.tsrc=rss",
-     "ts": 1794431229
+     "title": "Nebius Group (NBIS) Gets Gartner Backing Through A $13 Million AI Platform Win",
+     "link": "https://finance.yahoo.com/technology/ai/articles/nebius-group-nbis-gets-gartner-051814044.html?.tsrc=rss",
+     "ts": 1794460694
     }
    ]
   },
@@ -1089,16 +1039,16 @@
    "pct_below_52w_high": 16.04,
    "pct_below_day_high": 2.6,
    "market_time": 1794430801,
-   "score": 41,
+   "score": 47,
    "categories": {
-    "attention": 29,
+    "attention": 35,
     "tape": 12,
     "insider": 0
    },
    "reasons": [
     "Up 7.3% today",
-    "#2 on Reddit (402 mentions/24h)",
-    "Reddit mentions up 1.9x in 24h",
+    "#2 on Reddit (521 mentions/24h)",
+    "Reddit mentions up 2.3x in 24h",
     "Trending on Stocktwits",
     "Trending on Yahoo Finance",
     "On Yahoo's most active list"
@@ -1110,19 +1060,69 @@
    "earnings_ts": 1793739600,
    "headlines": [
     {
-     "title": "Jensen Huang’s Future At Nvidia Hangs In Balance As Board Weighs Fallout: Analysts Warn Of Challenges Ahead",
-     "link": "https://stocktwits.com/news-articles/markets/equity/jensen-huang-s-future-at-nvidia-hangs-in-balance-as-board-reportedly-weighs-fallout-analysts-warn-of-challenges-ahead/cNGzikhR99g?.tsrc=rss",
-     "ts": 1794451411
+     "title": "Buy, Sell Or Hold AMD Stock At $553?",
+     "link": "https://www.trefis.com/stock/amd/articles/624203/buy-sell-or-hold-amd-stock-at-553/2026-11-12?.tsrc=rss",
+     "ts": 1794476560
     },
     {
-     "title": "Dow Jones Futures Rise, Techs Fall As Nvidia May Oust CEO Huang After CoreWave Leads Rally",
-     "link": "https://finance.yahoo.com/m/672e6ef4-2ba3-319b-b948-a356a7f1fcbe/dow-jones-futures-rise%2C-techs.html?.tsrc=rss",
-     "ts": 1794451410
+     "title": "Great News for Nvidia, Micron, Broadcom, and AMD Stock Investors -- Wall Street Made a Mistake",
+     "link": "https://www.fool.com/investing/2026/11/12/great-news-nvidia-micron-broadcom-amd-wall-street-mistake/?.tsrc=rss",
+     "ts": 1794475982
     },
     {
-     "title": "Meet Ian Buck: The NVIDIA Executive Insiders Believe Is the One Man Who Can Replace Jensen Huang",
-     "link": "https://247wallst.com/investing/2026/11/11/meet-ian-buck-the-nvidia-executive-insiders-believe-is-the-one-man-who-can-replace-jensen-huang/?.tsrc=rss",
-     "ts": 1794445910
+     "title": "INTC, BABA Shares Slide Over Links To Firm Tied To Suspected Chinese Spy",
+     "link": "https://stocktwits.com/news-articles/markets/equity/intc-baba-shares-slide-over-links-to-firm-tied-to-suspected-chinese-spy/cNGzod1R99H?.tsrc=rss",
+     "ts": 1794470686
+    }
+   ]
+  },
+  {
+   "symbol": "NVDA",
+   "name": "NVIDIA Corporation",
+   "instrument_type": "EQUITY",
+   "exchange": "NasdaqGS",
+   "price": 173.73,
+   "day_change_pct": 2.87,
+   "relative_volume": 2.03,
+   "avg_dollar_volume": 26103998041,
+   "momentum_20d_pct": -21.5,
+   "above_ma20_pct": -15.74,
+   "daily_volatility_pct": 3.05,
+   "pct_below_52w_high": 28.61,
+   "pct_below_day_high": 2.15,
+   "market_time": 1794430800,
+   "score": 38,
+   "categories": {
+    "attention": 29,
+    "tape": 9,
+    "insider": 0
+   },
+   "reasons": [
+    "Volume 2.0x normal pace",
+    "#1 on Reddit (2132 mentions/24h)",
+    "Reddit mentions up 1.6x in 24h",
+    "Trending on Stocktwits",
+    "Trending on Yahoo Finance",
+    "On Yahoo's most active list"
+   ],
+   "flags": [],
+   "market_cap": 4195058188288,
+   "earnings_ts": 1794949200,
+   "headlines": [
+    {
+     "title": "The Ultimate Dividend Stock to Buy With $1,000 Right Now",
+     "link": "https://www.fool.com/investing/2026/11/12/ultimate-dividend-stock-to-buy-1k-procter-pg/?.tsrc=rss",
+     "ts": 1794480600
+    },
+    {
+     "title": "Bitcoin Price Slides Toward $73K as Nvidia Plunges 9% and MSCI Drops Saylor’s Strategy",
+     "link": "https://www.coinspeaker.com/bitcoin-news-nvidia-msci-strategy-etf-outflows/?.tsrc=rss",
+     "ts": 1794480044
+    },
+    {
+     "title": "The 3 Best Stocks to Invest $3,000 in Right Now",
+     "link": "https://www.fool.com/investing/2026/11/12/the-3-best-stocks-to-invest-3000-in-right-now/?.tsrc=rss",
+     "ts": 1794479700
     }
    ]
   },
@@ -1149,8 +1149,8 @@
    },
    "reasons": [
     "Up 11.9% today",
-    "#4 on Reddit (244 mentions/24h)",
-    "Reddit mentions up 2.6x in 24h",
+    "#5 on Reddit (227 mentions/24h)",
+    "Reddit mentions up 2.1x in 24h",
     "On Yahoo's top gainers list",
     "On Yahoo's most active list"
    ],
@@ -1161,19 +1161,19 @@
    "earnings_ts": 1790798400,
    "headlines": [
     {
-     "title": "Jensen Huang’s Future At Nvidia Hangs In Balance As Board Weighs Fallout: Analysts Warn Of Challenges Ahead",
-     "link": "https://stocktwits.com/news-articles/markets/equity/jensen-huang-s-future-at-nvidia-hangs-in-balance-as-board-reportedly-weighs-fallout-analysts-warn-of-challenges-ahead/cNGzikhR99g?.tsrc=rss",
-     "ts": 1794451411
+     "title": "Applied Materials Stock At $395: Can It Do What CoreWeave Did?",
+     "link": "https://www.trefis.com/stock/amat/articles/624491/applied-materials-stock-at-395-can-it-do-what-coreweave-did/2026-11-12?.tsrc=rss",
+     "ts": 1794476560
     },
     {
-     "title": "5-star analyst flags surprise Micron stock catalyst after CoreWeave rally",
-     "link": "https://www.thestreet.com/investing/stocks/micron-keybanc-server-demand?.tsrc=rss",
-     "ts": 1794448980
+     "title": "Cisco Stock At $101: Is Networking The AI Trade Nobody Sold?",
+     "link": "https://www.trefis.com/stock/csco/articles/623836/cisco-stock-at-101-is-networking-the-ai-trade-nobody-sold/2026-11-12?.tsrc=rss",
+     "ts": 1794476560
     },
     {
-     "title": "3 Growth Stocks With Earnings Growth Over 20%",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/3-growth-stocks-earnings-growth-011311704.html?.tsrc=rss",
-     "ts": 1794445991
+     "title": "Great News for Nvidia, Micron, Broadcom, and AMD Stock Investors -- Wall Street Made a Mistake",
+     "link": "https://www.fool.com/investing/2026/11/12/great-news-nvidia-micron-broadcom-amd-wall-street-mistake/?.tsrc=rss",
+     "ts": 1794475982
     }
    ]
   },
@@ -1200,8 +1200,8 @@
    },
    "reasons": [
     "Up 7.5% today",
-    "#23 on Reddit (38 mentions/24h)",
-    "Reddit mentions up 2.7x in 24h",
+    "#23 on Reddit (40 mentions/24h)",
+    "Reddit mentions up 3.3x in 24h",
     "On Yahoo's most active list",
     "1 insider bought $9,709,680 on the open market (SEC Form 4)"
    ],
@@ -1213,19 +1213,19 @@
    "earnings_ts": 1793304000,
    "headlines": [
     {
-     "title": "Jensen Huang’s Future At Nvidia Hangs In Balance As Board Weighs Fallout: Analysts Warn Of Challenges Ahead",
-     "link": "https://stocktwits.com/news-articles/markets/equity/jensen-huang-s-future-at-nvidia-hangs-in-balance-as-board-reportedly-weighs-fallout-analysts-warn-of-challenges-ahead/cNGzikhR99g?.tsrc=rss",
-     "ts": 1794451411
+     "title": "NVDA Turmoil Weighs On Nasdaq Futures — INTC, BABA, NBIS, ONDS In Focus",
+     "link": "https://stocktwits.com/news-articles/markets/equity/nvda-turmoil-weighs-on-nasdaq-futures-intc-baba-nbis-onds-in-focus/cNGzryOR9aT?.tsrc=rss",
+     "ts": 1794479275
     },
     {
-     "title": "Warren Buffett’s 1991 Playbook Points The Path Forward As Nvidia Reportedly Prepares To Oust Jensen Huang. Buffett Said He Could Forgive Losses, But There Was One Thing He Would Be Ruthless About",
-     "link": "https://247wallst.com/investing/2026/11/11/warren-buffetts-1991-playbook-points-the-path-forward-as-nvidia-reportedly-prepares-to-oust-jensen-huang-buffett-said-he-could-forgive-losses-but-there-was-one-thing-he-would-be-ruthless-about/?.tsrc=rss",
-     "ts": 1794450366
+     "title": "Intel's CEO Bought $9.7 Million of Stock Right After It Plunged 29%. I'm Not Ready to Follow Him In.",
+     "link": "https://www.fool.com/investing/2026/11/12/intel-s-ceo-bought-usd9-7-million-of-stock-right-after-it-plunged-29-i-m-not-ready-to-follow-him-in/?.tsrc=rss",
+     "ts": 1794471842
     },
     {
-     "title": "Nvidia’s Board Is Reportedly Preparing to Oust Jensen Huang. When Intel and McDonald’s Pushed Out CEOs Over Workplace Relationships, Shareholders Got Opposite Results",
-     "link": "https://247wallst.com/investing/2026/11/11/nvidias-board-is-reportedly-preparing-to-oust-jensen-huang-when-intel-and-mcdonalds-pushed-out-ceos-over-workplace-relationships-shareholders-got-opposite-results/?.tsrc=rss",
-     "ts": 1794440059
+     "title": "INTC, BABA Shares Slide Over Links To Firm Tied To Suspected Chinese Spy",
+     "link": "https://stocktwits.com/news-articles/markets/equity/intc-baba-shares-slide-over-links-to-firm-tied-to-suspected-chinese-spy/cNGzod1R99H?.tsrc=rss",
+     "ts": 1794470686
     }
    ]
   },
@@ -1253,7 +1253,7 @@
    "reasons": [
     "Volume 2.2x normal pace",
     "Up 24.7% today",
-    "#6 on Reddit (228 mentions/24h)",
+    "#7 on Reddit (190 mentions/24h)",
     "On Yahoo's top gainers list",
     "On Yahoo's most active list"
    ],
@@ -1265,19 +1265,19 @@
    "earnings_ts": 1794344400,
    "headlines": [
     {
-     "title": "Dow Jones Futures Rise, Techs Fall As Nvidia May Oust CEO Huang After CoreWave Leads Rally",
-     "link": "https://finance.yahoo.com/m/672e6ef4-2ba3-319b-b948-a356a7f1fcbe/dow-jones-futures-rise%2C-techs.html?.tsrc=rss",
-     "ts": 1794451410
+     "title": "CoreWeave rolls out in-cluster PostgreSQL for AI teams",
+     "link": "https://www.verdict.co.uk/coreweave-rolls-out-postgresql/?.tsrc=rss",
+     "ts": 1794477810
     },
     {
-     "title": "BE Stock Clocked Best Single-Day Gain Since July As CoreWeave Flags AI’s Power Crunch – But Retail Traders Warn Of A 'Fast Fix'",
-     "link": "https://stocktwits.com/news-articles/markets/equity/bloom-energy-be-stock-coreweave-ai-power-demand-retail-bearish/cNGzWtZR99a?.tsrc=rss",
-     "ts": 1794447482
+     "title": "US Stock Futures Decline as Nvidia Leadership Reports Weigh on Technology Shares: Dow Jones, S&P, Nasdaq, Wall Street",
+     "link": "https://investorshub.advfn.com/market-news/article/39855/us-stock-futures-decline-as-nvidia-leadership-reports-weigh-on-technology-shares-dow-jones-sp-nasdaq-wall-street?.tsrc=rss",
+     "ts": 1794477803
     },
     {
-     "title": "Wall St futures fall as Nvidia slides on report of possible CEO ouster",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/wall-st-futures-fall-nvidia-011540333.html?.tsrc=rss",
-     "ts": 1794446140
+     "title": "Asian stocks drop as traders keep eye on Nvidia crisis",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/asian-stocks-extend-gains-traders-025559054.html?.tsrc=rss",
+     "ts": 1794477213
     }
    ]
   },
@@ -1304,8 +1304,8 @@
    },
    "reasons": [
     "Up 4.0% today",
-    "#14 on Reddit (65 mentions/24h)",
-    "Reddit mentions up 2.0x in 24h",
+    "#12 on Reddit (70 mentions/24h)",
+    "Reddit mentions up 1.8x in 24h",
     "Trending on Stocktwits",
     "Trending on Yahoo Finance"
    ],
@@ -1314,70 +1314,19 @@
    "earnings_ts": 1796850000,
    "headlines": [
     {
-     "title": "Jensen Huang’s Future At Nvidia Hangs In Balance As Board Weighs Fallout: Analysts Warn Of Challenges Ahead",
-     "link": "https://stocktwits.com/news-articles/markets/equity/jensen-huang-s-future-at-nvidia-hangs-in-balance-as-board-reportedly-weighs-fallout-analysts-warn-of-challenges-ahead/cNGzikhR99g?.tsrc=rss",
-     "ts": 1794451411
+     "title": "Cisco Stock At $101: Is Networking The AI Trade Nobody Sold?",
+     "link": "https://www.trefis.com/stock/csco/articles/623836/cisco-stock-at-101-is-networking-the-ai-trade-nobody-sold/2026-11-12?.tsrc=rss",
+     "ts": 1794476560
     },
     {
-     "title": "Here's My Biggest Worry About Broadcom Stock. It Isn't Enough to Stop Me From Buying.",
-     "link": "https://www.fool.com/investing/2026/11/11/here-s-my-biggest-worry-about-broadcom-stock-it-isn-t-enough-to-stop-me-from-buying/?.tsrc=rss",
-     "ts": 1794449582
+     "title": "Great News for Nvidia, Micron, Broadcom, and AMD Stock Investors -- Wall Street Made a Mistake",
+     "link": "https://www.fool.com/investing/2026/11/12/great-news-nvidia-micron-broadcom-amd-wall-street-mistake/?.tsrc=rss",
+     "ts": 1794475982
     },
     {
-     "title": "Apollo Global Management Sees Private Credit Demand Holding Up Despite Negative Headlines",
-     "link": "https://www.marketbeat.com/instant-alerts/event-apollo-global-management-sees-private-credit-demand-holding-up-despite-negative-headlines-2026-11-11/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
-     "ts": 1794449527
-    }
-   ]
-  },
-  {
-   "symbol": "SNDK",
-   "name": "Sandisk Corporation",
-   "instrument_type": "EQUITY",
-   "exchange": "NasdaqGS",
-   "price": 977.69,
-   "day_change_pct": 13.69,
-   "relative_volume": 1.42,
-   "avg_dollar_volume": 9719133875,
-   "momentum_20d_pct": -30.33,
-   "above_ma20_pct": -17.79,
-   "daily_volatility_pct": 7.2,
-   "pct_below_52w_high": 58.47,
-   "pct_below_day_high": 3.3,
-   "market_time": 1794430801,
-   "score": 32,
-   "categories": {
-    "attention": 25,
-    "tape": 7,
-    "insider": 0
-   },
-   "reasons": [
-    "Up 13.7% today",
-    "#12 on Reddit (76 mentions/24h)",
-    "Reddit mentions up 2.5x in 24h",
-    "Trending on Yahoo Finance",
-    "On Yahoo's top gainers list"
-   ],
-   "flags": [
-    "Very volatile: typical daily swing 7.2%"
-   ],
-   "market_cap": 139114889216,
-   "earnings_ts": 1793304000,
-   "headlines": [
-    {
-     "title": "Dow Jones Futures Rise, Techs Fall As Nvidia May Oust CEO Huang After CoreWave Leads Rally",
-     "link": "https://finance.yahoo.com/m/672e6ef4-2ba3-319b-b948-a356a7f1fcbe/dow-jones-futures-rise%2C-techs.html?.tsrc=rss",
-     "ts": 1794451410
-    },
-    {
-     "title": "Nasdaq 100 Futures Drop As Reports Relating To Jensen Huang’s Ousting Outweigh CoreWeave’s Strong Outlook —  NVDA, TSLA, SNDK, CAPR, CRWV In Focus",
-     "link": "https://stocktwits.com/news-articles/markets/equity/nasdaq-100-futures-drop-as-reports-relating-to-jensen-huang-s-ousting/cNGzQslR997?.tsrc=rss",
-     "ts": 1794442926
-    },
-    {
-     "title": "Analyst Says Sandisk Corp. (SNDK) Offers More Than 100% Upside. Should You Buy?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/analyst-says-sandisk-corp-sndk-232856312.html?.tsrc=rss",
-     "ts": 1794439736
+     "title": "The Chip Stock Rebound Is Just Getting Started",
+     "link": "https://finance.yahoo.com/m/a75ff0f7-990a-340a-b43b-57a9a9edd636/the-chip-stock-rebound-is.html?.tsrc=rss",
+     "ts": 1794470400
     }
    ]
   },
@@ -1415,169 +1364,19 @@
    "earnings_ts": 1794403800,
    "headlines": [
     {
+     "title": "Why RUM Group (RUM) Is Up 16.6% And What's Next After AI Revenue Beat",
+     "link": "https://finance.yahoo.com/technology/ai/articles/why-rum-group-rum-16-090922074.html?.tsrc=rss",
+     "ts": 1794474562
+    },
+    {
+     "title": "RUM Group (RUM) Could Be 75% Undervalued As Q3 Results Refocus Attention",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/rum-group-rum-could-75-071514866.html?.tsrc=rss",
+     "ts": 1794467714
+    },
+    {
      "title": "Rumble’s AI Business Now Drives 70% Of Revenue – CEO Chris Pavlovski Says GPU Fleet Is ‘Nearly Sold Out’",
      "link": "https://stocktwits.com/news-articles/markets/equity/rum-stock-earnings-quake-ai-ceo-chris-pavlovski-gpu/cNGzLVAR99Q?.tsrc=rss",
      "ts": 1794449298
-    },
-    {
-     "title": "RUM Group (RUM) Just Soared 16.6% Higher — Here’s Why",
-     "link": "https://finance.yahoo.com/technology/ai/articles/rum-group-rum-just-soared-234124265.html?.tsrc=rss",
-     "ts": 1794440484
-    },
-    {
-     "title": "Rumble Inc. Q3 2026 Earnings Call Summary",
-     "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-rumble-inc-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
-     "ts": 1794435732
-    }
-   ]
-  },
-  {
-   "symbol": "NVDA",
-   "name": "NVIDIA Corporation",
-   "instrument_type": "EQUITY",
-   "exchange": "NasdaqGS",
-   "price": 173.73,
-   "day_change_pct": 2.87,
-   "relative_volume": 2.03,
-   "avg_dollar_volume": 26103998041,
-   "momentum_20d_pct": -21.5,
-   "above_ma20_pct": -15.74,
-   "daily_volatility_pct": 3.05,
-   "pct_below_52w_high": 28.61,
-   "pct_below_day_high": 2.15,
-   "market_time": 1794430800,
-   "score": 31,
-   "categories": {
-    "attention": 22,
-    "tape": 9,
-    "insider": 0
-   },
-   "reasons": [
-    "Volume 2.0x normal pace",
-    "#1 on Reddit (1814 mentions/24h)",
-    "Trending on Stocktwits",
-    "Trending on Yahoo Finance",
-    "On Yahoo's most active list"
-   ],
-   "flags": [],
-   "market_cap": 4195058188288,
-   "earnings_ts": 1794949200,
-   "headlines": [
-    {
-     "title": "If SpaceX and Tesla Merge, Here's What a $10,000 Investment in the Combined Company Could Be Worth by 2030",
-     "link": "https://www.fool.com/investing/2026/11/11/if-spacex-and-tesla-merge-heres-what-a-10000-inves/?.tsrc=rss",
-     "ts": 1794451800
-    },
-    {
-     "title": "Jensen Huang’s Future At Nvidia Hangs In Balance As Board Weighs Fallout: Analysts Warn Of Challenges Ahead",
-     "link": "https://stocktwits.com/news-articles/markets/equity/jensen-huang-s-future-at-nvidia-hangs-in-balance-as-board-reportedly-weighs-fallout-analysts-warn-of-challenges-ahead/cNGzikhR99g?.tsrc=rss",
-     "ts": 1794451411
-    },
-    {
-     "title": "Dow Jones Futures Rise, Techs Fall As Nvidia May Oust CEO Huang After CoreWave Leads Rally",
-     "link": "https://finance.yahoo.com/m/672e6ef4-2ba3-319b-b948-a356a7f1fcbe/dow-jones-futures-rise%2C-techs.html?.tsrc=rss",
-     "ts": 1794451410
-    }
-   ]
-  },
-  {
-   "symbol": "RDDT",
-   "name": "Reddit, Inc.",
-   "instrument_type": "EQUITY",
-   "exchange": "NYSE",
-   "price": 105.66,
-   "day_change_pct": 7.08,
-   "relative_volume": 0.65,
-   "avg_dollar_volume": 747522919,
-   "momentum_20d_pct": -28.9,
-   "above_ma20_pct": -16.51,
-   "daily_volatility_pct": 7.37,
-   "pct_below_52w_high": 59.9,
-   "pct_below_day_high": 0.67,
-   "market_time": 1794431014,
-   "score": 28,
-   "categories": {
-    "attention": 21,
-    "tape": 7,
-    "insider": 0
-   },
-   "reasons": [
-    "Up 7.1% today",
-    "#16 on Reddit (57 mentions/24h)",
-    "Reddit mentions up 2.5x in 24h"
-   ],
-   "flags": [
-    "Very volatile: typical daily swing 7.4%",
-    "Lots of chatter without matching volume"
-   ],
-   "market_cap": 20402284544,
-   "earnings_ts": 1793304000,
-   "headlines": [
-    {
-     "title": "Reddit (RDDT) Stock May Be Undervalued Following Its Logged In Push",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/reddit-rddt-stock-may-undervalued-010911465.html?.tsrc=rss",
-     "ts": 1794445751
-    },
-    {
-     "title": "My parents are in their early 60s with no savings, a mortgage, and $2,400 in Social Security: where can they afford to live?",
-     "link": "https://247wallst.com/personal-finance/2025/05/30/my-parents-are-in-their-early-60s-with-no-savings-a-mortgage-and-2400-in-social-security-where-can-they-afford-to-live/?.tsrc=rss",
-     "ts": 1794440709
-    },
-    {
-     "title": "I’m 44 with $1.3 million in my 401(k) — can I stop contributing and still retire in 15 years?",
-     "link": "https://247wallst.com/personal-finance/2024/12/18/im-44-with-1-3-million-in-my-401k-can-i-stop-contributing-and-still-retire-in-15-years/?.tsrc=rss",
-     "ts": 1794436509
-    }
-   ]
-  },
-  {
-   "symbol": "XERS",
-   "name": "Xeris Biopharma Holdings, Inc.",
-   "instrument_type": "EQUITY",
-   "exchange": "NasdaqGS",
-   "price": 16.52,
-   "day_change_pct": 4.36,
-   "relative_volume": 1.14,
-   "avg_dollar_volume": 52577366,
-   "momentum_20d_pct": 69.09,
-   "above_ma20_pct": 45.05,
-   "daily_volatility_pct": 6.89,
-   "pct_below_52w_high": 0.3,
-   "pct_below_day_high": 0.3,
-   "market_time": 1794430801,
-   "score": 27,
-   "categories": {
-    "attention": 6,
-    "tape": 21,
-    "insider": 0
-   },
-   "reasons": [
-    "Up 4.4% today",
-    "Up 69% over 20 sessions",
-    "Within 0.3% of its 52-week high",
-    "Trending on Stocktwits"
-   ],
-   "flags": [
-    "Stretched: 45% above its 20-day average",
-    "Very volatile: typical daily swing 6.9%"
-   ],
-   "market_cap": 3018204672,
-   "earnings_ts": 1793885400,
-   "headlines": [
-    {
-     "title": "XERS, CARL Stocks Hit All-Time Highs Today – Here’s What Analysts Are Saying",
-     "link": "https://stocktwits.com/news-articles/markets/equity/xers-carl-stocks-hit-all-time-highs-today-here-s-what-analysts-are-saying/cNGDx11R99R?.tsrc=rss",
-     "ts": 1794421394
-    },
-    {
-     "title": "Why Did MRNA, XERS, VIR Stocks Surge To 52-Week Highs Last Week?",
-     "link": "https://stocktwits.com/news-articles/markets/equity/why-did-mrna-xers-vir-stocks-surge-to-52-week-highs-last-week/cNGAUjuR9ec?.tsrc=rss",
-     "ts": 1794197631
-    },
-    {
-     "title": "Why Xeris Biopharma Holdings (XERS) Is Up 16.2% And What's Next",
-     "link": "https://finance.yahoo.com/healthcare/articles/why-xeris-biopharma-holdings-xers-191612504.html?.tsrc=rss",
-     "ts": 1794078972
     }
    ]
   },
@@ -1604,8 +1403,8 @@
    },
    "reasons": [
     "Up 13% over 20 sessions",
-    "#15 on Reddit (59 mentions/24h)",
-    "Reddit mentions up 14.8x in 24h"
+    "#10 on Reddit (80 mentions/24h)",
+    "Reddit mentions up 40.0x in 24h"
    ],
    "flags": [
     "Lots of chatter without matching volume"
@@ -1638,7 +1437,7 @@
    "reasons": [
     "Volume 2.3x normal pace",
     "Up 21.3% today",
-    "#50 on Reddit (15 mentions/24h)"
+    "#43 on Reddit (19 mentions/24h)"
    ],
    "flags": [
     "Very volatile: typical daily swing 6.7%",
@@ -1648,6 +1447,11 @@
    "earnings_ts": 1794258000,
    "headlines": [
     {
+     "title": "Is Trump Media & Technology Group (DJT) Cheap After Its Q3 Earnings Swing?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/trump-media-technology-group-djt-031206973.html?.tsrc=rss",
+     "ts": 1794453126
+    },
+    {
      "title": "Trump Media (DJT) Just Soared 21% — This Propelled the Rally",
      "link": "https://finance.yahoo.com/markets/stocks/articles/trump-media-djt-just-soared-235253812.html?.tsrc=rss",
      "ts": 1794441173
@@ -1656,46 +1460,109 @@
      "title": "If you invested $1,000 in Trump Media on its first day, here’s what it’s worth today",
      "link": "https://www.thestreet.com/crypto/markets/if-you-invested-1000-in-trump-media-on-its-first-day-heres-what-its-worth-today?.tsrc=rss",
      "ts": 1794431400
-    },
-    {
-     "title": "Rumble Rises 6% After Third-Quarter Revenue Beat; Trump Media Jumps 9%, Meta Stays Flat",
-     "link": "https://247wallst.com/investing/2026/11/11/rumble-rises-6-after-third-quarter-revenue-beat-trump-media-jumps-9-meta-stays-flat/?.tsrc=rss",
-     "ts": 1794408949
     }
    ]
   },
   {
-   "symbol": "YOU",
-   "name": "Clear Secure, Inc.",
+   "symbol": "FRVO",
+   "name": "Fervo Energy Company",
    "instrument_type": "EQUITY",
-   "exchange": "NYSE",
-   "price": 55.41,
-   "day_change_pct": -0.59,
-   "relative_volume": 0.68,
-   "avg_dollar_volume": 92503877,
-   "momentum_20d_pct": 25.05,
-   "above_ma20_pct": 14.58,
-   "daily_volatility_pct": 5.45,
-   "pct_below_52w_high": 19.78,
-   "pct_below_day_high": 2.09,
-   "market_time": 1794430802,
+   "exchange": "NasdaqGS",
+   "price": 12.94,
+   "day_change_pct": 13.71,
+   "relative_volume": 1.29,
+   "avg_dollar_volume": 115404638,
+   "momentum_20d_pct": 18.28,
+   "above_ma20_pct": 41.51,
+   "daily_volatility_pct": 9.41,
+   "pct_below_52w_high": 69.66,
+   "pct_below_day_high": 2.56,
+   "market_time": 1794430801,
    "score": 23,
    "categories": {
-    "attention": 15,
-    "tape": 8,
+    "attention": 6,
+    "tape": 17,
     "insider": 0
    },
    "reasons": [
-    "Up 25% over 20 sessions",
-    "#20 on Reddit (42 mentions/24h)",
-    "Reddit mentions up 1.9x in 24h"
+    "Up 13.7% today",
+    "Up 18% over 20 sessions",
+    "Trending on Stocktwits",
+    "On Yahoo's top gainers list"
    ],
    "flags": [
-    "Lots of chatter without matching volume"
+    "Stretched: 42% above its 20-day average",
+    "Very volatile: typical daily swing 9.4%"
    ],
-   "market_cap": 8360005632,
-   "earnings_ts": 1793799000,
-   "headlines": []
+   "market_cap": 3817569792,
+   "earnings_ts": 1794231000,
+   "headlines": [
+    {
+     "title": "Earnings Calendar and Analysis for This Week",
+     "link": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks?.tsrc=rss",
+     "ts": 1794345947
+    },
+    {
+     "title": "Is Fervo Energy (FRVO) Undervalued Following Its Google Deal And Cape Station Launch?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/fervo-energy-frvo-undervalued-following-201055205.html?.tsrc=rss",
+     "ts": 1794341455
+    },
+    {
+     "title": "Fervo Energy (FRVO) Stock May Be Overvalued As Shares Fell 69%",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/fervo-energy-frvo-stock-may-190900089.html?.tsrc=rss",
+     "ts": 1794337740
+    }
+   ]
+  },
+  {
+   "symbol": "SNDK",
+   "name": "Sandisk Corporation",
+   "instrument_type": "EQUITY",
+   "exchange": "NasdaqGS",
+   "price": 977.69,
+   "day_change_pct": 13.69,
+   "relative_volume": 1.42,
+   "avg_dollar_volume": 9719133875,
+   "momentum_20d_pct": -30.33,
+   "above_ma20_pct": -17.79,
+   "daily_volatility_pct": 7.2,
+   "pct_below_52w_high": 58.47,
+   "pct_below_day_high": 3.3,
+   "market_time": 1794430801,
+   "score": 22,
+   "categories": {
+    "attention": 15,
+    "tape": 7,
+    "insider": 0
+   },
+   "reasons": [
+    "Up 13.7% today",
+    "#14 on Reddit (64 mentions/24h)",
+    "Reddit mentions up 1.7x in 24h",
+    "On Yahoo's top gainers list"
+   ],
+   "flags": [
+    "Very volatile: typical daily swing 7.2%"
+   ],
+   "market_cap": 139114889216,
+   "earnings_ts": 1793304000,
+   "headlines": [
+    {
+     "title": "Applied Materials Stock At $395: Can It Do What CoreWeave Did?",
+     "link": "https://www.trefis.com/stock/amat/articles/624491/applied-materials-stock-at-395-can-it-do-what-coreweave-did/2026-11-12?.tsrc=rss",
+     "ts": 1794476560
+    },
+    {
+     "title": "Micron vs. Sandisk: The AI Memory Supercycle Is Big Enough for Both, but Here's the Better Buy.",
+     "link": "https://www.fool.com/investing/2026/11/12/micron-vs-sandisk-the-ai-memory-supercycle-is-big/?.tsrc=rss",
+     "ts": 1794460800
+    },
+    {
+     "title": "Dow Jones Futures Rise, Techs Fall As Nvidia May Oust CEO Huang After CoreWave Leads Rally",
+     "link": "https://finance.yahoo.com/m/672e6ef4-2ba3-319b-b948-a356a7f1fcbe/dow-jones-futures-rise%2C-techs.html?.tsrc=rss",
+     "ts": 1794456527
+    }
+   ]
   },
   {
    "symbol": "NYT",
@@ -1719,46 +1586,163 @@
     "insider": 0
    },
    "reasons": [
-    "#8 on Reddit (82 mentions/24h)",
-    "Reddit mentions up 9.1x in 24h"
+    "#8 on Reddit (105 mentions/24h)",
+    "Reddit mentions up 11.7x in 24h"
    ],
    "flags": [
     "Lots of chatter without matching volume"
    ],
    "market_cap": 11625117696,
    "earnings_ts": 1793799000,
-   "headlines": []
+   "headlines": [
+    {
+     "title": "Nvidia Stock Tumbles As Board Reportedly Prepares To Oust CEO Jensen Huang",
+     "link": "https://finance.yahoo.com/m/bbc5741e-b461-34b4-8fc1-c5d3c35023a1/nvidia-stock-tumbles-as-board.html?.tsrc=rss",
+     "ts": 1794438041
+    },
+    {
+     "title": "Nvidia Stock Plunges After Hours as Reports of a Second Jensen Huang Relationship Could Force the CEO Out",
+     "link": "https://www.barchart.com/story/news/8789754/nvidia-stock-plunges-after-hours-as-reports-of-a-second-jensen-huang-relationship-could-force-the-ceo-out?.tsrc=rss",
+     "ts": 1794438017
+    },
+    {
+     "title": "The 5 most interesting analyst questions from The New York Times’s Q3 2026 earnings call",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/5-most-interesting-analyst-questions-025336161.html?.tsrc=rss",
+     "ts": 1794192816
+    }
+   ]
   },
   {
-   "symbol": "SMA",
-   "name": "SmartStop Self Storage REIT, In",
+   "symbol": "NOW",
+   "name": "ServiceNow, Inc.",
    "instrument_type": "EQUITY",
    "exchange": "NYSE",
-   "price": 38.91,
-   "day_change_pct": 0.72,
-   "relative_volume": 1.97,
-   "avg_dollar_volume": 37363130,
-   "momentum_20d_pct": 19.39,
-   "above_ma20_pct": 8.02,
-   "daily_volatility_pct": 1.88,
-   "pct_below_52w_high": 3.57,
-   "pct_below_day_high": 0.04,
-   "market_time": 1794430802,
-   "score": 21,
+   "price": 102.76,
+   "day_change_pct": 3.16,
+   "relative_volume": 0.71,
+   "avg_dollar_volume": 2035086600,
+   "momentum_20d_pct": -26.59,
+   "above_ma20_pct": -21.05,
+   "daily_volatility_pct": 6.56,
+   "pct_below_52w_high": 41.28,
+   "pct_below_day_high": 0.86,
+   "market_time": 1794430803,
+   "score": 20,
    "categories": {
-    "attention": 4,
-    "tape": 17,
+    "attention": 17,
+    "tape": 3,
     "insider": 0
    },
    "reasons": [
-    "Volume 2.0x normal pace",
-    "Up 19% over 20 sessions",
-    "Within 3.6% of its 52-week high",
-    "#48 on Reddit (16 mentions/24h)"
+    "Up 3.2% today",
+    "#28 on Reddit (33 mentions/24h)",
+    "Reddit mentions up 2.1x in 24h"
    ],
-   "flags": [],
-   "market_cap": 2233861632,
-   "earnings_ts": 1793826000,
+   "flags": [
+    "Very volatile: typical daily swing 6.6%",
+    "Lots of chatter without matching volume"
+   ],
+   "market_cap": 106656350208,
+   "earnings_ts": 1793217600,
+   "headlines": [
+    {
+     "title": "Why Is ServiceNow Stock Cheap Near $100?",
+     "link": "https://www.trefis.com/stock/now/articles/624204/why-is-servicenow-stock-cheap-near-100/2026-11-12?.tsrc=rss",
+     "ts": 1794476560
+    },
+    {
+     "title": "What Are Datadog Investors Betting On?",
+     "link": "https://www.trefis.com/stock/ddog/articles/624343/what-are-datadog-investors-betting-on/2026-11-11?.tsrc=rss",
+     "ts": 1794443185
+    },
+    {
+     "title": "Docusign vs. ServiceNow: Which Technology Stock Is a Better Buy for 2027?",
+     "link": "https://www.fool.com/coverage/better-buy/2026/11/11/docusign-vs-servicenow-which-technology-stock-is-a-better-buy-for-2027/?.tsrc=rss",
+     "ts": 1794430202
+    }
+   ]
+  },
+  {
+   "symbol": "LLY",
+   "name": "Eli Lilly and Company",
+   "instrument_type": "EQUITY",
+   "exchange": "NYSE",
+   "price": 1437.29,
+   "day_change_pct": 0.35,
+   "relative_volume": 0.6,
+   "avg_dollar_volume": 4484872508,
+   "momentum_20d_pct": 18.91,
+   "above_ma20_pct": 8.33,
+   "daily_volatility_pct": 2.48,
+   "pct_below_52w_high": 1.08,
+   "pct_below_day_high": 0.21,
+   "market_time": 1794431034,
+   "score": 20,
+   "categories": {
+    "attention": 10,
+    "tape": 10,
+    "insider": 0
+   },
+   "reasons": [
+    "Up 19% over 20 sessions",
+    "Within 1.1% of its 52-week high",
+    "Trending on Stocktwits",
+    "Trending on Yahoo Finance"
+   ],
+   "flags": [
+    "Insiders sold $7,012,600 recently"
+   ],
+   "market_cap": 1280258998272,
+   "earnings_ts": 1793277000,
+   "headlines": [
+    {
+     "title": "Eli Lilly stock rises after China approves weight-loss pill",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/eli-lilly-stock-rises-china-103709147.html?.tsrc=rss",
+     "ts": 1794479829
+    },
+    {
+     "title": "Is Eli Lilly (LLY) Priced Below Its Cash Flow Potential?",
+     "link": "https://finance.yahoo.com/healthcare/articles/eli-lilly-lly-priced-below-011832255.html?.tsrc=rss",
+     "ts": 1794446312
+    },
+    {
+     "title": "Eli Lilly Just Raised Its 2026 Sales Forecast to as Much as $92 Billion. But Is Viking Therapeutics the Next Big Obesity Winner?",
+     "link": "https://www.fool.com/investing/2026/11/11/eli-lilly-just-raised-its-2026-sales-forecast-to-a/?.tsrc=rss",
+     "ts": 1794437640
+    }
+   ]
+  },
+  {
+   "symbol": "YOU",
+   "name": "Clear Secure, Inc.",
+   "instrument_type": "EQUITY",
+   "exchange": "NYSE",
+   "price": 55.41,
+   "day_change_pct": -0.59,
+   "relative_volume": 0.68,
+   "avg_dollar_volume": 92503877,
+   "momentum_20d_pct": 25.05,
+   "above_ma20_pct": 14.58,
+   "daily_volatility_pct": 5.45,
+   "pct_below_52w_high": 19.78,
+   "pct_below_day_high": 2.09,
+   "market_time": 1794430802,
+   "score": 19,
+   "categories": {
+    "attention": 11,
+    "tape": 8,
+    "insider": 0
+   },
+   "reasons": [
+    "Up 25% over 20 sessions",
+    "#21 on Reddit (42 mentions/24h)",
+    "Reddit mentions up 1.6x in 24h"
+   ],
+   "flags": [
+    "Lots of chatter without matching volume"
+   ],
+   "market_cap": 8360005632,
+   "earnings_ts": 1793799000,
    "headlines": []
   },
   {
@@ -1793,6 +1777,168 @@
    "headlines": []
   },
   {
+   "symbol": "AAPL",
+   "name": "Apple Inc.",
+   "instrument_type": "EQUITY",
+   "exchange": "NasdaqGS",
+   "price": 355.63,
+   "day_change_pct": 2.04,
+   "relative_volume": 0.69,
+   "avg_dollar_volume": 17208821360,
+   "momentum_20d_pct": 3.69,
+   "above_ma20_pct": 3.31,
+   "daily_volatility_pct": 1.66,
+   "pct_below_52w_high": 0.08,
+   "pct_below_day_high": 0.08,
+   "market_time": 1794430801,
+   "score": 17,
+   "categories": {
+    "attention": 12,
+    "tape": 5,
+    "insider": 0
+   },
+   "reasons": [
+    "Within 0.1% of its 52-week high",
+    "#20 on Reddit (44 mentions/24h)",
+    "Trending on Yahoo Finance",
+    "On Yahoo's most active list"
+   ],
+   "flags": [
+    "Lots of chatter without matching volume"
+   ],
+   "market_cap": 5168079831040,
+   "earnings_ts": 1793653200,
+   "headlines": []
+  },
+  {
+   "symbol": "IT",
+   "name": "Gartner, Inc.",
+   "instrument_type": "EQUITY",
+   "exchange": "NYSE",
+   "price": 193.0,
+   "day_change_pct": 2.16,
+   "relative_volume": 0.66,
+   "avg_dollar_volume": 236324749,
+   "momentum_20d_pct": -1.41,
+   "above_ma20_pct": -9.39,
+   "daily_volatility_pct": 4.3,
+   "pct_below_52w_high": 24.87,
+   "pct_below_day_high": 0.09,
+   "market_time": 1794430802,
+   "score": 17,
+   "categories": {
+    "attention": 17,
+    "tape": 0,
+    "insider": 0
+   },
+   "reasons": [
+    "#24 on Reddit (40 mentions/24h)",
+    "Reddit mentions up 2.1x in 24h"
+   ],
+   "flags": [
+    "Lots of chatter without matching volume"
+   ],
+   "market_cap": 12174700544,
+   "earnings_ts": 1793712600,
+   "headlines": []
+  },
+  {
+   "symbol": "PR",
+   "name": "Permian Resources Corporation",
+   "instrument_type": "EQUITY",
+   "exchange": "NYSE",
+   "price": 22.32,
+   "day_change_pct": 2.76,
+   "relative_volume": 0.81,
+   "avg_dollar_volume": 227867228,
+   "momentum_20d_pct": -7.23,
+   "above_ma20_pct": -7.44,
+   "daily_volatility_pct": 2.78,
+   "pct_below_52w_high": 14.37,
+   "pct_below_day_high": 0.22,
+   "market_time": 1794430802,
+   "score": 17,
+   "categories": {
+    "attention": 17,
+    "tape": 0,
+    "insider": 0
+   },
+   "reasons": [
+    "#27 on Reddit (37 mentions/24h)",
+    "Reddit mentions up 2.6x in 24h"
+   ],
+   "flags": [
+    "Lots of chatter without matching volume"
+   ],
+   "market_cap": 18720360448,
+   "earnings_ts": 1793826000,
+   "headlines": []
+  },
+  {
+   "symbol": "IP",
+   "name": "International Paper Company",
+   "instrument_type": "EQUITY",
+   "exchange": "NYSE",
+   "price": 34.66,
+   "day_change_pct": -1.34,
+   "relative_volume": 0.47,
+   "avg_dollar_volume": 217601023,
+   "momentum_20d_pct": 8.65,
+   "above_ma20_pct": 0.68,
+   "daily_volatility_pct": 2.48,
+   "pct_below_52w_high": 31.02,
+   "pct_below_day_high": 1.15,
+   "market_time": 1794430803,
+   "score": 17,
+   "categories": {
+    "attention": 17,
+    "tape": 0,
+    "insider": 0
+   },
+   "reasons": [
+    "#32 on Reddit (28 mentions/24h)",
+    "Reddit mentions up 9.3x in 24h"
+   ],
+   "flags": [
+    "Lots of chatter without matching volume"
+   ],
+   "market_cap": 18356023296,
+   "earnings_ts": 1793190600,
+   "headlines": []
+  },
+  {
+   "symbol": "RTX",
+   "name": "RTX Corporation",
+   "instrument_type": "EQUITY",
+   "exchange": "NYSE",
+   "price": 201.29,
+   "day_change_pct": 0.51,
+   "relative_volume": 0.74,
+   "avg_dollar_volume": 1212394552,
+   "momentum_20d_pct": 7.95,
+   "above_ma20_pct": 3.22,
+   "daily_volatility_pct": 1.97,
+   "pct_below_52w_high": 11.28,
+   "pct_below_day_high": 0.45,
+   "market_time": 1794430802,
+   "score": 17,
+   "categories": {
+    "attention": 17,
+    "tape": 0,
+    "insider": 0
+   },
+   "reasons": [
+    "#37 on Reddit (24 mentions/24h)",
+    "Reddit mentions up 2.4x in 24h"
+   ],
+   "flags": [
+    "Lots of chatter without matching volume"
+   ],
+   "market_cap": 271628877824,
+   "earnings_ts": 1792499400,
+   "headlines": []
+  },
+  {
    "symbol": "RKLB",
    "name": "Rocket Lab Corporation",
    "instrument_type": "EQUITY",
@@ -1816,7 +1962,7 @@
    "reasons": [
     "Up 5.5% today",
     "Up 12% over 20 sessions",
-    "#32 on Reddit (26 mentions/24h)"
+    "#38 on Reddit (24 mentions/24h)"
    ],
    "flags": [
     "Very volatile: typical daily swing 7.0%",
@@ -1824,6 +1970,38 @@
    ],
    "market_cap": 44517109760,
    "earnings_ts": 1794258000,
+   "headlines": []
+  },
+  {
+   "symbol": "GME",
+   "name": "GameStop Corporation",
+   "instrument_type": "EQUITY",
+   "exchange": "NYSE",
+   "price": 25.55,
+   "day_change_pct": 0.47,
+   "relative_volume": 0.49,
+   "avg_dollar_volume": 203556345,
+   "momentum_20d_pct": -5.89,
+   "above_ma20_pct": 1.36,
+   "daily_volatility_pct": 2.46,
+   "pct_below_52w_high": 9.72,
+   "pct_below_day_high": 0.37,
+   "market_time": 1794430802,
+   "score": 17,
+   "categories": {
+    "attention": 17,
+    "tape": 0,
+    "insider": 0
+   },
+   "reasons": [
+    "#39 on Reddit (20 mentions/24h)",
+    "Reddit mentions up 2.2x in 24h"
+   ],
+   "flags": [
+    "Lots of chatter without matching volume"
+   ],
+   "market_cap": 12890000384,
+   "earnings_ts": 1788870600,
    "headlines": []
   },
   {
@@ -1849,7 +2027,7 @@
    },
    "reasons": [
     "Up 8.8% today",
-    "#40 on Reddit (18 mentions/24h)",
+    "#50 on Reddit (14 mentions/24h)",
     "On Yahoo's most active list"
    ],
    "flags": [],
@@ -1880,7 +2058,7 @@
    },
    "reasons": [
     "Up 8.7% today",
-    "#26 on Reddit (34 mentions/24h)"
+    "#31 on Reddit (30 mentions/24h)"
    ],
    "flags": [
     "Very volatile: typical daily swing 7.0%",
@@ -1891,165 +2069,36 @@
    "headlines": []
   },
   {
-   "symbol": "TTWO",
-   "name": "Take-Two Interactive Software, ",
+   "symbol": "RDDT",
+   "name": "Reddit, Inc.",
    "instrument_type": "EQUITY",
-   "exchange": "NasdaqGS",
-   "price": 231.31,
-   "day_change_pct": 2.97,
-   "relative_volume": 1.71,
-   "avg_dollar_volume": 699774939,
-   "momentum_20d_pct": 14.95,
-   "above_ma20_pct": 13.25,
-   "daily_volatility_pct": 2.94,
-   "pct_below_52w_high": 13.02,
-   "pct_below_day_high": 2.57,
-   "market_time": 1794430800,
-   "score": 16,
-   "categories": {
-    "attention": 4,
-    "tape": 12,
-    "insider": 0
-   },
-   "reasons": [
-    "Volume 1.7x normal pace",
-    "Up 15% over 20 sessions",
-    "#41 on Reddit (18 mentions/24h)"
-   ],
-   "flags": [],
-   "market_cap": 43304349696,
-   "earnings_ts": 1794258000,
-   "headlines": []
-  },
-  {
-   "symbol": "GOOGL",
-   "name": "Alphabet Inc.",
-   "instrument_type": "EQUITY",
-   "exchange": "NasdaqGS",
-   "price": 293.45,
-   "day_change_pct": 2.11,
-   "relative_volume": 0.64,
-   "avg_dollar_volume": 11516102780,
-   "momentum_20d_pct": -15.59,
-   "above_ma20_pct": -5.61,
-   "daily_volatility_pct": 3.08,
-   "pct_below_52w_high": 28.18,
-   "pct_below_day_high": 0.77,
-   "market_time": 1794430800,
+   "exchange": "NYSE",
+   "price": 105.66,
+   "day_change_pct": 7.08,
+   "relative_volume": 0.65,
+   "avg_dollar_volume": 747522919,
+   "momentum_20d_pct": -28.9,
+   "above_ma20_pct": -16.51,
+   "daily_volatility_pct": 7.37,
+   "pct_below_52w_high": 59.9,
+   "pct_below_day_high": 0.67,
+   "market_time": 1794431014,
    "score": 15,
    "categories": {
-    "attention": 15,
-    "tape": 0,
-    "insider": 0
-   },
-   "reasons": [
-    "#13 on Reddit (69 mentions/24h)",
-    "Reddit mentions up 1.8x in 24h"
-   ],
-   "flags": [
-    "Lots of chatter without matching volume"
-   ],
-   "market_cap": 3607674224640,
-   "earnings_ts": 1793217600,
-   "headlines": []
-  },
-  {
-   "symbol": "SPCX",
-   "name": "Space Exploration Technologies ",
-   "instrument_type": "EQUITY",
-   "exchange": "NasdaqGS",
-   "price": 139.75,
-   "day_change_pct": -2.33,
-   "relative_volume": 1.01,
-   "avg_dollar_volume": 16019616930,
-   "momentum_20d_pct": -8.16,
-   "above_ma20_pct": -2.62,
-   "daily_volatility_pct": 4.64,
-   "pct_below_52w_high": 38.07,
-   "pct_below_day_high": 3.73,
-   "market_time": 1794430801,
-   "score": 14,
-   "categories": {
-    "attention": 14,
-    "tape": 0,
-    "insider": 0
-   },
-   "reasons": [
-    "#19 on Reddit (49 mentions/24h)",
-    "Trending on Stocktwits",
-    "On Yahoo's most active list"
-   ],
-   "flags": [
-    "Lots of chatter without matching volume"
-   ],
-   "market_cap": 1897953755136,
-   "earnings_ts": 1792526400,
-   "headlines": []
-  },
-  {
-   "symbol": "AMAT",
-   "name": "Applied Materials, Inc.",
-   "instrument_type": "EQUITY",
-   "exchange": "NasdaqGS",
-   "price": 395.08,
-   "day_change_pct": 6.05,
-   "relative_volume": 0.86,
-   "avg_dollar_volume": 3182933563,
-   "momentum_20d_pct": -11.54,
-   "above_ma20_pct": 1.33,
-   "daily_volatility_pct": 5.31,
-   "pct_below_52w_high": 46.59,
-   "pct_below_day_high": 2.38,
-   "market_time": 1794430801,
-   "score": 14,
-   "categories": {
-    "attention": 6,
-    "tape": 8,
-    "insider": 0
-   },
-   "reasons": [
-    "Up 6.0% today",
-    "Trending on Stocktwits"
-   ],
-   "flags": [
-    "Earnings within about 3 days: price can gap either way"
-   ],
-   "market_cap": 313534480384,
-   "earnings_ts": 1794517200,
-   "headlines": []
-  },
-  {
-   "symbol": "AAPL",
-   "name": "Apple Inc.",
-   "instrument_type": "EQUITY",
-   "exchange": "NasdaqGS",
-   "price": 355.63,
-   "day_change_pct": 2.04,
-   "relative_volume": 0.69,
-   "avg_dollar_volume": 17208821360,
-   "momentum_20d_pct": 3.69,
-   "above_ma20_pct": 3.31,
-   "daily_volatility_pct": 1.66,
-   "pct_below_52w_high": 0.08,
-   "pct_below_day_high": 0.08,
-   "market_time": 1794430801,
-   "score": 13,
-   "categories": {
     "attention": 8,
-    "tape": 5,
+    "tape": 7,
     "insider": 0
    },
    "reasons": [
-    "Within 0.1% of its 52-week high",
-    "#21 on Reddit (40 mentions/24h)",
-    "Trending on Yahoo Finance",
-    "On Yahoo's most active list"
+    "Up 7.1% today",
+    "#18 on Reddit (47 mentions/24h)"
    ],
    "flags": [
+    "Very volatile: typical daily swing 7.4%",
     "Lots of chatter without matching volume"
    ],
-   "market_cap": 5168079831040,
-   "earnings_ts": 1793653200,
+   "market_cap": 20402284544,
+   "earnings_ts": 1793304000,
    "headlines": []
   },
   {
@@ -2075,43 +2124,11 @@
    },
    "reasons": [
     "Up 5.8% today",
-    "#45 on Reddit (16 mentions/24h)"
+    "#46 on Reddit (16 mentions/24h)"
    ],
    "flags": [],
    "market_cap": 28659124224,
    "earnings_ts": 1793653200,
-   "headlines": []
-  },
-  {
-   "symbol": "IT",
-   "name": "Gartner, Inc.",
-   "instrument_type": "EQUITY",
-   "exchange": "NYSE",
-   "price": 193.0,
-   "day_change_pct": 2.16,
-   "relative_volume": 0.66,
-   "avg_dollar_volume": 236324749,
-   "momentum_20d_pct": -1.41,
-   "above_ma20_pct": -9.39,
-   "daily_volatility_pct": 4.3,
-   "pct_below_52w_high": 24.87,
-   "pct_below_day_high": 0.09,
-   "market_time": 1794430802,
-   "score": 11,
-   "categories": {
-    "attention": 11,
-    "tape": 0,
-    "insider": 0
-   },
-   "reasons": [
-    "#25 on Reddit (35 mentions/24h)",
-    "Reddit mentions up 1.8x in 24h"
-   ],
-   "flags": [
-    "Lots of chatter without matching volume"
-   ],
-   "market_cap": 12174700544,
-   "earnings_ts": 1793712600,
    "headlines": []
   },
   {
@@ -2136,8 +2153,8 @@
     "insider": 0
    },
    "reasons": [
-    "#30 on Reddit (27 mentions/24h)",
-    "Reddit mentions up 1.5x in 24h"
+    "#26 on Reddit (40 mentions/24h)",
+    "Reddit mentions up 1.8x in 24h"
    ],
    "flags": [
     "Lots of chatter without matching volume"
@@ -2147,52 +2164,20 @@
    "headlines": []
   },
   {
-   "symbol": "PR",
-   "name": "Permian Resources Corporation",
+   "symbol": "FPS",
+   "name": "Forgent Power Solutions, Inc.",
    "instrument_type": "EQUITY",
    "exchange": "NYSE",
-   "price": 22.32,
-   "day_change_pct": 2.76,
-   "relative_volume": 0.81,
-   "avg_dollar_volume": 227867228,
-   "momentum_20d_pct": -7.23,
-   "above_ma20_pct": -7.44,
-   "daily_volatility_pct": 2.78,
-   "pct_below_52w_high": 14.37,
-   "pct_below_day_high": 0.22,
+   "price": 24.57,
+   "day_change_pct": 14.39,
+   "relative_volume": 1.04,
+   "avg_dollar_volume": 248254558,
+   "momentum_20d_pct": -24.86,
+   "above_ma20_pct": -7.43,
+   "daily_volatility_pct": 9.68,
+   "pct_below_52w_high": 62.77,
+   "pct_below_day_high": 0.71,
    "market_time": 1794430802,
-   "score": 11,
-   "categories": {
-    "attention": 11,
-    "tape": 0,
-    "insider": 0
-   },
-   "reasons": [
-    "#31 on Reddit (27 mentions/24h)",
-    "Reddit mentions up 1.6x in 24h"
-   ],
-   "flags": [
-    "Lots of chatter without matching volume"
-   ],
-   "market_cap": 18720360448,
-   "earnings_ts": 1793826000,
-   "headlines": []
-  },
-  {
-   "symbol": "LGN",
-   "name": "Legence Corp.",
-   "instrument_type": "EQUITY",
-   "exchange": "NasdaqGS",
-   "price": 37.09,
-   "day_change_pct": 15.73,
-   "relative_volume": 1.49,
-   "avg_dollar_volume": 65935983,
-   "momentum_20d_pct": -17.41,
-   "above_ma20_pct": -1.82,
-   "daily_volatility_pct": 8.65,
-   "pct_below_52w_high": 65.41,
-   "pct_below_day_high": 1.62,
-   "market_time": 1794430801,
    "score": 11,
    "categories": {
     "attention": 4,
@@ -2200,16 +2185,48 @@
     "insider": 0
    },
    "reasons": [
-    "Up 15.7% today",
+    "Up 14.4% today",
     "Trending on Yahoo Finance",
     "On Yahoo's top gainers list"
    ],
    "flags": [
     "Earnings within about 3 days: price can gap either way",
-    "Very volatile: typical daily swing 8.7%"
+    "Very volatile: typical daily swing 9.7%"
    ],
-   "market_cap": 6093328384,
+   "market_cap": 7837456384,
    "earnings_ts": 1794490200,
+   "headlines": []
+  },
+  {
+   "symbol": "CSCO",
+   "name": "Cisco Systems, Inc.",
+   "instrument_type": "EQUITY",
+   "exchange": "NasdaqGS",
+   "price": 100.76,
+   "day_change_pct": 2.66,
+   "relative_volume": 1.0,
+   "avg_dollar_volume": 1871222909,
+   "momentum_20d_pct": -11.33,
+   "above_ma20_pct": -4.14,
+   "daily_volatility_pct": 2.68,
+   "pct_below_52w_high": 22.71,
+   "pct_below_day_high": 1.51,
+   "market_time": 1794430801,
+   "score": 10,
+   "categories": {
+    "attention": 10,
+    "tape": 0,
+    "insider": 0
+   },
+   "reasons": [
+    "Trending on Stocktwits",
+    "Trending on Yahoo Finance"
+   ],
+   "flags": [
+    "Earnings within about 3 days: price can gap either way"
+   ],
+   "market_cap": 397255049216,
+   "earnings_ts": 1794517200,
    "headlines": []
   },
   {
@@ -2235,7 +2252,7 @@
    },
    "reasons": [
     "Up 11% over 20 sessions",
-    "#36 on Reddit (21 mentions/24h)"
+    "#34 on Reddit (27 mentions/24h)"
    ],
    "flags": [
     "Lots of chatter without matching volume"
@@ -2276,37 +2293,6 @@
    "headlines": []
   },
   {
-   "symbol": "GOOG",
-   "name": "Alphabet Inc.",
-   "instrument_type": "EQUITY",
-   "exchange": "NasdaqGS",
-   "price": 290.63,
-   "day_change_pct": 2.0,
-   "relative_volume": 0.69,
-   "avg_dollar_volume": 7549997138,
-   "momentum_20d_pct": -15.43,
-   "above_ma20_pct": -5.71,
-   "daily_volatility_pct": 2.98,
-   "pct_below_52w_high": 28.15,
-   "pct_below_day_high": 0.78,
-   "market_time": 1794430800,
-   "score": 8,
-   "categories": {
-    "attention": 8,
-    "tape": 0,
-    "insider": 0
-   },
-   "reasons": [
-    "#10 on Reddit (80 mentions/24h)"
-   ],
-   "flags": [
-    "Lots of chatter without matching volume"
-   ],
-   "market_cap": 3573005156352,
-   "earnings_ts": 1793217600,
-   "headlines": []
-  },
-  {
    "symbol": "DTE",
    "name": "DTE Energy Company",
    "instrument_type": "EQUITY",
@@ -2328,13 +2314,75 @@
     "insider": 0
    },
    "reasons": [
-    "#11 on Reddit (79 mentions/24h)"
+    "#11 on Reddit (74 mentions/24h)"
    ],
    "flags": [
     "Lots of chatter without matching volume"
    ],
    "market_cap": 29078302720,
    "earnings_ts": 1793885400,
+   "headlines": []
+  },
+  {
+   "symbol": "GOOG",
+   "name": "Alphabet Inc.",
+   "instrument_type": "EQUITY",
+   "exchange": "NasdaqGS",
+   "price": 290.63,
+   "day_change_pct": 2.0,
+   "relative_volume": 0.69,
+   "avg_dollar_volume": 7549997138,
+   "momentum_20d_pct": -15.43,
+   "above_ma20_pct": -5.71,
+   "daily_volatility_pct": 2.98,
+   "pct_below_52w_high": 28.15,
+   "pct_below_day_high": 0.78,
+   "market_time": 1794430800,
+   "score": 8,
+   "categories": {
+    "attention": 8,
+    "tape": 0,
+    "insider": 0
+   },
+   "reasons": [
+    "#13 on Reddit (69 mentions/24h)"
+   ],
+   "flags": [
+    "Lots of chatter without matching volume"
+   ],
+   "market_cap": 3573005156352,
+   "earnings_ts": 1793217600,
+   "headlines": []
+  },
+  {
+   "symbol": "GOOGL",
+   "name": "Alphabet Inc.",
+   "instrument_type": "EQUITY",
+   "exchange": "NasdaqGS",
+   "price": 293.45,
+   "day_change_pct": 2.11,
+   "relative_volume": 0.64,
+   "avg_dollar_volume": 11516102780,
+   "momentum_20d_pct": -15.59,
+   "above_ma20_pct": -5.61,
+   "daily_volatility_pct": 3.08,
+   "pct_below_52w_high": 28.18,
+   "pct_below_day_high": 0.77,
+   "market_time": 1794430800,
+   "score": 8,
+   "categories": {
+    "attention": 8,
+    "tape": 0,
+    "insider": 0
+   },
+   "reasons": [
+    "#16 on Reddit (61 mentions/24h)"
+   ],
+   "flags": [
+    "Lots of chatter without matching volume"
+   ],
+   "market_cap": 3607674224640,
+   "earnings_ts": 1793217600,
    "headlines": []
   },
   {
@@ -2359,7 +2407,7 @@
     "insider": 0
    },
    "reasons": [
-    "#18 on Reddit (52 mentions/24h)"
+    "#17 on Reddit (56 mentions/24h)"
    ],
    "flags": [
     "Lots of chatter without matching volume"
@@ -2391,7 +2439,7 @@
    },
    "reasons": [
     "Up 5.6% today",
-    "#33 on Reddit (26 mentions/24h)",
+    "#35 on Reddit (27 mentions/24h)",
     "On Yahoo's most active list"
    ],
    "flags": [
@@ -2399,39 +2447,6 @@
    ],
    "market_cap": 8843608064,
    "earnings_ts": 1793912400,
-   "headlines": []
-  },
-  {
-   "symbol": "NOW",
-   "name": "ServiceNow, Inc.",
-   "instrument_type": "EQUITY",
-   "exchange": "NYSE",
-   "price": 102.76,
-   "day_change_pct": 3.16,
-   "relative_volume": 0.71,
-   "avg_dollar_volume": 2035086600,
-   "momentum_20d_pct": -26.59,
-   "above_ma20_pct": -21.05,
-   "daily_volatility_pct": 6.56,
-   "pct_below_52w_high": 41.28,
-   "pct_below_day_high": 0.86,
-   "market_time": 1794430803,
-   "score": 7,
-   "categories": {
-    "attention": 4,
-    "tape": 3,
-    "insider": 0
-   },
-   "reasons": [
-    "Up 3.2% today",
-    "#35 on Reddit (24 mentions/24h)"
-   ],
-   "flags": [
-    "Very volatile: typical daily swing 6.6%",
-    "Lots of chatter without matching volume"
-   ],
-   "market_cap": 106656350208,
-   "earnings_ts": 1793217600,
    "headlines": []
   },
   {
@@ -2499,20 +2514,20 @@
    "headlines": []
   },
   {
-   "symbol": "NVAX",
-   "name": "Novavax, Inc.",
+   "symbol": "QNT",
+   "name": "Quantinuum Inc.",
    "instrument_type": "EQUITY",
-   "exchange": "NasdaqGS",
-   "price": 9.98,
-   "day_change_pct": -2.16,
-   "relative_volume": 0.89,
-   "avg_dollar_volume": 67727438,
-   "momentum_20d_pct": -21.04,
-   "above_ma20_pct": -5.61,
-   "daily_volatility_pct": 5.97,
-   "pct_below_52w_high": 25.47,
-   "pct_below_day_high": 3.67,
-   "market_time": 1794430800,
+   "exchange": "NasdaqGM",
+   "price": 40.57,
+   "day_change_pct": -5.65,
+   "relative_volume": 1.17,
+   "avg_dollar_volume": 111282280,
+   "momentum_20d_pct": 22.83,
+   "above_ma20_pct": 12.41,
+   "daily_volatility_pct": 8.61,
+   "pct_below_52w_high": 53.25,
+   "pct_below_day_high": 8.42,
+   "market_time": 1794430801,
    "score": 6,
    "categories": {
     "attention": 6,
@@ -2520,11 +2535,47 @@
     "insider": 0
    },
    "reasons": [
+    "Up 23% over 20 sessions",
     "Trending on Stocktwits"
    ],
-   "flags": [],
-   "market_cap": 1646789888,
-   "earnings_ts": 1793885400,
+   "flags": [
+    "Very volatile: typical daily swing 8.6%",
+    "Falling: down 5.7% today"
+   ],
+   "market_cap": 10868468736,
+   "earnings_ts": 1793912400,
+   "headlines": []
+  },
+  {
+   "symbol": "SPCX",
+   "name": "Space Exploration Technologies ",
+   "instrument_type": "EQUITY",
+   "exchange": "NasdaqGS",
+   "price": 139.75,
+   "day_change_pct": -2.33,
+   "relative_volume": 1.01,
+   "avg_dollar_volume": 16019616930,
+   "momentum_20d_pct": -8.16,
+   "above_ma20_pct": -2.62,
+   "daily_volatility_pct": 4.64,
+   "pct_below_52w_high": 38.07,
+   "pct_below_day_high": 3.73,
+   "market_time": 1794430801,
+   "score": 4,
+   "categories": {
+    "attention": 4,
+    "tape": 0,
+    "insider": 0
+   },
+   "reasons": [
+    "#22 on Reddit (41 mentions/24h)",
+    "On Yahoo's most active list"
+   ],
+   "flags": [
+    "Lots of chatter without matching volume"
+   ],
+   "market_cap": 1897953755136,
+   "earnings_ts": 1792526400,
    "headlines": []
   },
   {
@@ -2549,7 +2600,7 @@
     "insider": 0
    },
    "reasons": [
-    "#29 on Reddit (30 mentions/24h)",
+    "#33 on Reddit (27 mentions/24h)",
     "On Yahoo's most active list"
    ],
    "flags": [
@@ -2581,7 +2632,7 @@
     "insider": 0
    },
    "reasons": [
-    "#28 on Reddit (31 mentions/24h)"
+    "#30 on Reddit (31 mentions/24h)"
    ],
    "flags": [
     "Lots of chatter without matching volume"
@@ -2612,42 +2663,13 @@
     "insider": 0
    },
    "reasons": [
-    "#34 on Reddit (26 mentions/24h)"
+    "#36 on Reddit (27 mentions/24h)"
    ],
    "flags": [
     "Lots of chatter without matching volume"
    ],
    "market_cap": 1607659945984,
    "earnings_ts": 1792612800,
-   "headlines": []
-  },
-  {
-   "symbol": "RTX",
-   "name": "RTX Corporation",
-   "instrument_type": "EQUITY",
-   "exchange": "NYSE",
-   "price": 201.29,
-   "day_change_pct": 0.51,
-   "relative_volume": 0.74,
-   "avg_dollar_volume": 1212394552,
-   "momentum_20d_pct": 7.95,
-   "above_ma20_pct": 3.22,
-   "daily_volatility_pct": 1.97,
-   "pct_below_52w_high": 11.28,
-   "pct_below_day_high": 0.45,
-   "market_time": 1794430802,
-   "score": 4,
-   "categories": {
-    "attention": 4,
-    "tape": 0,
-    "insider": 0
-   },
-   "reasons": [
-    "#37 on Reddit (19 mentions/24h)"
-   ],
-   "flags": [],
-   "market_cap": 271628877824,
-   "earnings_ts": 1792499400,
    "headlines": []
   },
   {
@@ -2672,44 +2694,15 @@
     "insider": 0
    },
    "reasons": [
-    "#42 on Reddit (17 mentions/24h)"
+    "#45 on Reddit (16 mentions/24h)"
    ],
    "flags": [],
    "market_cap": 109254246400,
    "earnings_ts": 1793885400,
    "headlines": []
-  },
-  {
-   "symbol": "GME",
-   "name": "GameStop Corporation",
-   "instrument_type": "EQUITY",
-   "exchange": "NYSE",
-   "price": 25.55,
-   "day_change_pct": 0.47,
-   "relative_volume": 0.49,
-   "avg_dollar_volume": 203556345,
-   "momentum_20d_pct": -5.89,
-   "above_ma20_pct": 1.36,
-   "daily_volatility_pct": 2.46,
-   "pct_below_52w_high": 9.72,
-   "pct_below_day_high": 0.37,
-   "market_time": 1794430802,
-   "score": 4,
-   "categories": {
-    "attention": 4,
-    "tape": 0,
-    "insider": 0
-   },
-   "reasons": [
-    "#43 on Reddit (17 mentions/24h)"
-   ],
-   "flags": [],
-   "market_cap": 12890000384,
-   "earnings_ts": 1788870600,
-   "headlines": []
   }
  ],
- "latest_at": 1794452129,
+ "latest_at": 1794481029,
  "digest_day": "2026-11-11",
  "failure_notice_day": null,
  "brief": null,
